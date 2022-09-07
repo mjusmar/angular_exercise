@@ -9,7 +9,7 @@ import { ComponentsModule } from '../components/components.module';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
-import { Grafica1Component } from './grafica1/grafica1.component';
+import { Graph1Component } from './graph1/graph1/graph1.component';
 import { PagesComponent } from './pages.component';
 
 
@@ -17,13 +17,13 @@ import { PagesComponent } from './pages.component';
   declarations: [
     DashboardComponent,
     ProgressComponent,
-    Grafica1Component,
+    Graph1Component,
     PagesComponent,
   ],
   exports: [
     DashboardComponent,
     ProgressComponent,
-    Grafica1Component,
+    Graph1Component,
     PagesComponent,
   ],
   imports: [
