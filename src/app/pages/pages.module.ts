@@ -18,19 +18,19 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
+    PagesComponent,
     DashboardComponent,
     ProgressComponent,
     Graph1Component,
-    PagesComponent,
     AccountSettingsComponent,
     PromisesComponent,
     RxjsComponent,
   ],
   exports: [
+    PagesComponent,
     DashboardComponent,
     ProgressComponent,
     Graph1Component,
-    PagesComponent,
   ],
   imports: [
     CommonModule,
